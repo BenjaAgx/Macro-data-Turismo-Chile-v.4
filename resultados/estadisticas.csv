@@ -1,0 +1,74 @@
+﻿tipo,variable,categoria,n_registros,n_nulos,media,mediana,minimo,maximo,rango,desv_estandar,q1,q3,cv_pct,pct_ceros,frecuencia,porcentaje
+numerica,enero,,649393.0,0.0,83.1091,7.1825,0.0,57946.152,57946.152,508.7616,0.0,33.429,612.1609,28.7827,,
+numerica,febrero,,649393.0,0.0,80.3029,6.7183,0.0,49176.8075,49176.8075,482.8279,0.0,31.9627,601.2586,29.286,,
+numerica,marzo,,649393.0,0.0,40.5124,3.6017,0.0,15882.6762,15882.6762,213.5042,0.0,17.7666,527.0095,39.5971,,
+numerica,abril,,649393.0,0.0,32.8444,2.4067,0.0,13310.1366,13310.1366,182.9217,0.0,12.972,556.9347,45.757,,
+numerica,mayo,,649393.0,0.0,32.2087,2.5028,0.0,18718.3807,18718.3807,181.6864,0.0,13.0362,564.0914,45.3571,,
+numerica,junio,,649393.0,0.0,36.4006,3.0185,0.0,14784.7496,14784.7496,194.66,0.0,15.6842,534.7715,42.4122,,
+numerica,julio,,649393.0,0.0,46.8968,3.7053,0.0,19342.5253,19342.5253,260.8463,0.0,19.0831,556.2134,38.3047,,
+numerica,agosto,,649393.0,0.0,40.0671,2.8204,0.0,15596.7687,15596.7687,222.1917,0.0,15.4445,554.5495,43.4463,,
+numerica,septiembre,,649393.0,0.0,50.7678,3.9728,0.0,15448.9762,15448.9762,268.2894,0.0,20.8478,528.4635,37.2565,,
+numerica,octubre,,649393.0,0.0,49.6399,3.7251,0.0,18857.7523,18857.7523,269.415,0.0,19.5289,542.7394,38.2784,,
+numerica,noviembre,,649393.0,0.0,35.9215,2.2243,0.0,20268.9589,20268.9589,201.2046,0.0,13.8526,560.1237,47.2441,,
+numerica,diciembre,,649393.0,0.0,52.0699,3.1867,0.0,36576.1981,36576.1981,320.557,0.0,18.7596,615.6283,41.9958,,
+numerica,total_anual,,649393.0,0.0,580.7409,55.64,0.0,203145.29,203145.29,3030.8213,13.7,245.38,521.8887,0.0154,,
+numerica,pct_verano,,649393.0,0.0,37.6844,34.06,0.0,100.49,100.49,25.5359,22.41,50.02,67.7626,12.2363,,
+numerica,n_meses_imputados,,649393.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,100.0,,
+categorica,anio,2019,,,,,,,,,,,,,90712.0,13.9687
+categorica,anio,2020,,,,,,,,,,,,,88479.0,13.6249
+categorica,anio,2021,,,,,,,,,,,,,92236.0,14.2034
+categorica,anio,2022,,,,,,,,,,,,,94796.0,14.5976
+categorica,anio,2023,,,,,,,,,,,,,95254.0,14.6682
+categorica,anio,2024,,,,,,,,,,,,,95376.0,14.6869
+categorica,anio,2025,,,,,,,,,,,,,92540.0,14.2502
+categorica,region_origen,Metropolitana de Santiago,,,,,,,,,,,,,105613.0,16.2633
+categorica,region_origen,Valparaíso,,,,,,,,,,,,,75718.0,11.6598
+categorica,region_origen,Biobío,,,,,,,,,,,,,66675.0,10.2673
+categorica,region_origen,Libertador General Bernardo O'Higgins,,,,,,,,,,,,,65896.0,10.1473
+categorica,region_origen,La Araucanía,,,,,,,,,,,,,62001.0,9.5475
+categorica,region_origen,Maule,,,,,,,,,,,,,61916.0,9.5344
+categorica,region_origen,Los Lagos,,,,,,,,,,,,,50237.0,7.736
+categorica,region_origen,Ñuble,,,,,,,,,,,,,40050.0,6.1673
+categorica,region_origen,Coquimbo,,,,,,,,,,,,,27113.0,4.1751
+categorica,region_origen,Los Ríos,,,,,,,,,,,,,24388.0,3.7555
+categorica,region_origen,Antofagasta,,,,,,,,,,,,,17174.0,2.6446
+categorica,region_origen,Atacama,,,,,,,,,,,,,16392.0,2.5242
+categorica,region_origen,Aysén del General Carlos Ibáñez del Campo,,,,,,,,,,,,,12314.0,1.8962
+categorica,region_origen,Tarapacá,,,,,,,,,,,,,10300.0,1.5861
+categorica,region_origen,Magallanes y de la Antártica Chilena,,,,,,,,,,,,,10040.0,1.5461
+categorica,region_origen,Arica y Parinacota,,,,,,,,,,,,,3566.0,0.5491
+categorica,region_destino,Metropolitana de Santiago,,,,,,,,,,,,,101766.0,15.6709
+categorica,region_destino,Valparaíso,,,,,,,,,,,,,71875.0,11.068
+categorica,region_destino,Biobío,,,,,,,,,,,,,65238.0,10.046
+categorica,region_destino,La Araucanía,,,,,,,,,,,,,65060.0,10.0186
+categorica,region_destino,Libertador General Bernardo O'Higgins,,,,,,,,,,,,,61069.0,9.404
+categorica,region_destino,Maule,,,,,,,,,,,,,60194.0,9.2693
+categorica,region_destino,Los Lagos,,,,,,,,,,,,,57696.0,8.8846
+categorica,region_destino,Ñuble,,,,,,,,,,,,,40418.0,6.224
+categorica,region_destino,Coquimbo,,,,,,,,,,,,,27195.0,4.1878
+categorica,region_destino,Los Ríos,,,,,,,,,,,,,25718.0,3.9603
+categorica,region_destino,Antofagasta,,,,,,,,,,,,,16464.0,2.5353
+categorica,region_destino,Atacama,,,,,,,,,,,,,15893.0,2.4474
+categorica,region_destino,Aysén del General Carlos Ibáñez del Campo,,,,,,,,,,,,,14859.0,2.2881
+categorica,region_destino,Tarapacá,,,,,,,,,,,,,11334.0,1.7453
+categorica,region_destino,Magallanes y de la Antártica Chilena,,,,,,,,,,,,,10411.0,1.6032
+categorica,region_destino,Arica y Parinacota,,,,,,,,,,,,,4203.0,0.6472
+categorica,mes_pico,enero,,,,,,,,,,,,,141856.0,21.8444
+categorica,mes_pico,febrero,,,,,,,,,,,,,126422.0,19.4677
+categorica,mes_pico,marzo,,,,,,,,,,,,,37147.0,5.7203
+categorica,mes_pico,abril,,,,,,,,,,,,,23877.0,3.6768
+categorica,mes_pico,mayo,,,,,,,,,,,,,24435.0,3.7627
+categorica,mes_pico,junio,,,,,,,,,,,,,32779.0,5.0476
+categorica,mes_pico,julio,,,,,,,,,,,,,45284.0,6.9733
+categorica,mes_pico,agosto,,,,,,,,,,,,,29165.0,4.4911
+categorica,mes_pico,septiembre,,,,,,,,,,,,,48085.0,7.4046
+categorica,mes_pico,octubre,,,,,,,,,,,,,43881.0,6.7572
+categorica,mes_pico,noviembre,,,,,,,,,,,,,31490.0,4.8491
+categorica,mes_pico,diciembre,,,,,,,,,,,,,64872.0,9.9896
+categorica,mes_pico,sin flujo,,,,,,,,,,,,,100.0,0.0154
+categorica,nivel_flujo,bajo,,,,,,,,,,,,,216465.0,33.3334
+categorica,nivel_flujo,alto,,,,,,,,,,,,,216431.0,33.3282
+categorica,nivel_flujo,medio,,,,,,,,,,,,,216397.0,33.323
+categorica,nivel_flujo,sin flujo,,,,,,,,,,,,,100.0,0.0154
+categorica,es_intrarregional,0,,,,,,,,,,,,,605396.0,93.2249
+categorica,es_intrarregional,1,,,,,,,,,,,,,43997.0,6.7751
