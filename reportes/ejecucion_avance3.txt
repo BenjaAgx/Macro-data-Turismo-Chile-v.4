@@ -1,0 +1,87 @@
+1. CARGA
+Archivo: datos\originales\dataset.csv (solo lectura)
+
+2. DIAGNÓSTICO INICIAL
+
+--- Dataset original ---
+Filas: 649,393 | Columnas: 26
+Nulos totales: 0 | Duplicados exactos: 0 | Ids repetidos: 0 | Fuera de rango: 0
+
+3. LIMPIEZA
+4. TRATAMIENTO DE NULOS
+5. TRANSFORMACIONES
+6. VALIDACIÓN
+  [OK] Columnas requeridas presentes: todas
+  [OK] Tipos numéricos en meses, año y códigos: correctos
+  [OK] Valores dentro de rango: sin fuera de rango
+  [OK] Sin nulos en identificadores ni meses: 0 nulos
+  [OK] Sin filas duplicadas: 0 duplicadas
+  [OK] total_anual coincide con suma de meses: diferencia máx. 5.00e-03
+
+--- Dataset procesado ---
+Filas: 649,393 | Columnas: 33
+Nulos totales: 0 | Duplicados exactos: 0 | Ids repetidos: 0 | Fuera de rango: 0
+
+7. EXPORTACIÓN
+  datos\procesados\dataset_limpio.csv  (197.2 MB)
+  datos\procesados\dataset_limpio_muestra.csv
+  reportes\resumen_ejecucion.md  (tablas listas para el informe)
+
+======================================================================
+AVANCE 3: ESTADÍSTICA E INDICADORES
+======================================================================
+8. CARGA DEL DATASET LIMPIO
+  datos\procesados\dataset_limpio.csv: 649,393 filas x 32 columnas
+
+9. ESTADÍSTICAS DESCRIPTIVAS
+  -> resultados\estadisticas.csv (73 filas)
+         variable  n_registros  media  mediana  minimo     maximo  desv_estandar
+            enero       649393  83.11     7.18    0.00  57,946.15         508.76
+          febrero       649393  80.30     6.72    0.00  49,176.81         482.83
+            marzo       649393  40.51     3.60    0.00  15,882.68         213.50
+            abril       649393  32.84     2.41    0.00  13,310.14         182.92
+             mayo       649393  32.21     2.50    0.00  18,718.38         181.69
+            junio       649393  36.40     3.02    0.00  14,784.75         194.66
+            julio       649393  46.90     3.71    0.00  19,342.53         260.85
+           agosto       649393  40.07     2.82    0.00  15,596.77         222.19
+       septiembre       649393  50.77     3.97    0.00  15,448.98         268.29
+          octubre       649393  49.64     3.73    0.00  18,857.75         269.42
+        noviembre       649393  35.92     2.22    0.00  20,268.96         201.20
+        diciembre       649393  52.07     3.19    0.00  36,576.20         320.56
+      total_anual       649393 580.74    55.64    0.00 203,145.29       3,030.82
+       pct_verano       649393  37.68    34.06    0.00     100.49          25.54
+n_meses_imputados       649393   0.00     0.00    0.00       0.00           0.00
+
+10. INDICADORES
+  -> resultados\indicadores.csv (12 indicadores)
+  -> resultados\estacionalidad_regional.csv (16 regiones)
+  - Total de registros válidos: 649.393 de 649.393 (100,0%)
+  - % de registros sin flujo: 0,0%
+  - Variación del flujo total 2019 a 2025: -5,1% (tasa anual compuesta -0,9%)
+  - Variación interanual 2024 a 2025: -15,7%
+  - Concentración estival nacional (dic-feb): 37,1%
+  - Mes pico más frecuente: enero (21,8% de los registros)
+  - Región destino más estacional: Los Ríos (índice 2,35, pico en febrero)
+  - Región destino menos estacional: Metropolitana (índice 1,25, pico en enero)
+  - % de viajes intrarregionales: 28,2% de los viajes (6,8% de los registros)
+  - Región destino con más viajes: Valparaíso (75.507.955 viajes, 20,0% del total)
+  - Valor máximo de total_anual y registro asociado: 203.145 viajes turísticos: Copiapó a Caldera (2024)
+  - Casos críticos (rutas de flujo extremo): 6.493 registros, que concentran 38,6% de todos los viajes
+
+11. VERIFICACIÓN DE CÁLCULOS
+  [OK] Media y mediana de total_anual coinciden con NumPy: media 580.7409 vs 580.7409
+  [OK] Suma de totales anuales = total general: 377,129,094.36 vs 377,129,094.36
+  [OK] Suma por región destino = total general: 377,129,094.36 vs 377,129,094.36
+  [OK] En cada fila, suma de meses = total_anual: diferencia máx. 0.0050
+  [FALLA] pct_verano entre 0 y 100: mín 0.00 / máx 100.49
+  [OK] Porcentajes mensuales por región suman 100: mín 100.0000 / máx 100.0000
+  [OK] Frecuencias por año suman el total de filas: 649,393 vs 649,393
+
+12. GRÁFICOS
+  -> resultados\graficos\grafico_01.png
+  -> resultados\graficos\grafico_02.png
+  -> resultados\graficos\grafico_03.png
+  -> resultados\graficos\grafico_04.png
+
+13. INFORME PDF
+  -> reportes\avance_3.pdf
